@@ -6,6 +6,8 @@
     <title>Personal Website</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <meta name="color-scheme" content="light">
+
 
     <style>
     .nav-item .nav-link {
@@ -94,6 +96,11 @@ header .btn {
     font-weight: bold;
 }
 
+@media (max-width: 768px) {
+            .flex-md-row {
+                flex-direction: column; /* Change to column on small screens */
+            }
+        }
 
 
 
@@ -131,7 +138,7 @@ header .btn {
                     <img src="./static/buntu1.jpg" class="img-fluid" alt="Profile Picture" style="height: 400px;">
                 </div>
                 <div id="about" class="col-md-6 mt-1">
-                    <h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">ABOUT</h2>
+                    <h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-align: center;">ABOUT</h2>
                     <p>Hi, I'm Olabuntu Babatunde Afeez, a passionate biochemist and Python developer with a keen interest in Drug discovery, Artificial Intelligence, Cancer research and bioinformatics. This website showcases my journey, projects, and the exciting world of scientific research and computational biology. Explore to learn more about my work and aspirations.</p>
                     <p><b>Name:</b> Olabuntu, Babatunde Afeez</p>
                     <p><b>Language:</b> Python, SQL, Mysql, HTML and CSS</p>
@@ -143,7 +150,7 @@ header .btn {
 
                 <div class="social-links">
                         
-                        <a href="./static/your-cv-file.pdf" download class="btn btn-secondary">Download CV</a>
+                        <a href="./static/Buntu_cv.pdf" download class="btn btn-secondary">Download CV</a>
                       
                             <a href="https://github.com/Olabuntu">
                                 <img src="./static/github.svg" alt="github" width="25" height="25" style="margin-left: 10px;">
